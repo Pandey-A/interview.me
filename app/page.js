@@ -1,7 +1,7 @@
 import Footer from "./sections/Footer";
 import Hero from "./sections/Hero";
 import Navbar from "./sections/Navbar";
-import Pricing from "./sections/pricing";
+import Pricing from "./sections/Pricing";
 import ProductShowcase from "./sections/ProductShowcase";
 
 

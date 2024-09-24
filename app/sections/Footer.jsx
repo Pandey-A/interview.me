@@ -1,10 +1,5 @@
 import Image from 'next/image';
 import React from 'react'
-import socialInsta from '../../../public/social-insta.svg'
-import socialLinkedin from '../../../public/social-linkedin.svg'
-import socialTwitter from '../../../public/social-x.svg'
-import socialYoutube from '../../../public/social-youtube.svg'
-import logoBrand from '../../../public/logo.png'
 
 function Footer() {
     return (
@@ -21,10 +16,6 @@ function Footer() {
         <a href="#">Careers</a>
       </nav>
       <div className="flex justify-center gap-6 mt-6">
-        <Image src={socialInsta} alt="Instagram" height={30} className="relative"/>
-        <Image src={socialTwitter} alt="Twitter" height={30} className="relative"/>
-        <Image src={socialYoutube} alt="Youtube" height={30} className="relative"/>
-        <Image src={socialLinkedin} alt="Linkedin" height={30} className="relative"/>
       </div>
       <p className="mt-6">&copy; 2024 Interview.Me All rights reserved.</p>
     </div>
