@@ -1,7 +1,6 @@
 "use client";
 import { UserButton } from '@clerk/nextjs'
 import Image from 'next/image'
-import brand from '../../../../public/logo.png'
 import { usePathname } from 'next/navigation'
 import React, { useEffect } from 'react'
 
@@ -14,7 +13,7 @@ function Header() {
 
   return (
    <div className='flex py-2 px-2 items-center justify-between bg-secondary shadow-sm'>
-    <Image src={brand} width={150} height={200} alt="logo" />
+    <Image src='logo.png' width={150} height={200} alt="logo" />
     
     <ul className='hidden md:flex gap-6'>
         <li className={`hover:text-primary hover:font-bold transition-all cursor-pointer`

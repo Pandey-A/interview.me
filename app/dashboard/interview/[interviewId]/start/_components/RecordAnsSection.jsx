@@ -1,7 +1,6 @@
 "use client";
 import  useSpeechToText  from 'react-hook-speech-to-text'
 import Image from 'next/image'
-import camera from '../../../../../../../public/webcam.png'
 import React, { useEffect, useState } from 'react'
 import Webcam from 'react-webcam'
 import { Button } from '@/components/ui/button'
@@ -95,7 +94,7 @@ function RecordAnsSection({mockInterviewQuestion,activeQuestionIndex,interviewDa
   return (
     <div className='flex items-center justify-center flex-col'>
     <div className='flex flex-col my-20 justify-center items-center bg-black rounded-lg p-5'>
-        <Image src={camera} width={500} height={300} alt="webcam" className='absolute'/>
+        <Image src="/webcam.png" width={500} height={300} alt="webcam" className='absolute'/>
       <Webcam
       mirrored={true}
       style={

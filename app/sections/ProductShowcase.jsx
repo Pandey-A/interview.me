@@ -1,8 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import productImage from '../../../public/product-image.png'
-import pyramidImage from '../../../public/pyramid.png'
-import tubeImage from '../../../public/tube.png'
+
 
 function ProductShowcase() {
     return (
@@ -21,9 +19,9 @@ function ProductShowcase() {
             </p>
             </div>
             <div className="relative">
-            <Image src={productImage} alt="Product Image" className="mt-10"/>
-            <Image src={pyramidImage} alt='Pyramid Image' height={262} width={262} className="hidden md:block absolute -right-36 -top-32 "/>
-            <Image src={tubeImage} alt='Tube Image' height={248} width={262} className=" hidden md:block absolute bottom-24 -left-36 "/>
+            <Image src="/product-image.png" alt="Product Image" width={1000} height={1000} className="mt-10"/>
+            <Image src="/pyramid.png" alt='Pyramid Image' height={262} width={262} className="hidden md:block absolute -right-36 -top-32 "/>
+            <Image src="/tube.png" alt='Tube Image' height={248} width={262} className=" hidden md:block absolute bottom-24 -left-36 "/>
           </div>
           </div>
           

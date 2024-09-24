@@ -2,7 +2,7 @@ import { ArrowRightIcon } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
-import imageHero from '../../../public/image.png'
+
 
 function Hero() {
     return (
@@ -28,7 +28,7 @@ function Hero() {
             </div>
             </div>
             <div>
-                <Image src={imageHero} alt='Hero Image'  height={500} width={500} className="hidden md:block absolute right-[100px] top-[200px] "/>
+                <Image src="/image.png" alt='Hero Image'  height={500} width={500} className="hidden md:block absolute right-[100px] top-[200px] "/>
             </div>
             {/* <div className="mt-20 md:mt-0 md:h-[640px] md:flex-1 lg:h-[640px] lg:ml-[auto] relative">
               <Image src={cogImage} alt="cog Image" className="md:absolute md:h-full md:w-auto md:max-w-none md:-left-6 "/>
