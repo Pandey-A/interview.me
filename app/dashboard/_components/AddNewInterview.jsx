@@ -95,7 +95,7 @@ function AddNewInterview() {
                 onChange={(event)=>setJobDescription(event.target.value)} />
             </div>
             <div className='mt-6 my-4'>
-                <label>Job Role</label>
+                <label>Job Experience</label>
                 <Input placeholder="Ex: 5" type="number" className="w-full" max="100" required
                 onChange={(event)=>setJobExperience(event.target.value)} />
             </div>
