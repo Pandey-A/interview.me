@@ -8,7 +8,7 @@ function Navbar() {
     return ( 
         <header className="sticky top-0 backdrop-blur-sm z-20">
         <div className ="flex justify-center items-center py-3 bg-black text-white text-sm gap-3">
-          <p className="text-white/60 hiddden md:block">Showcase your talent and earn crypto</p>
+          <p className="text-white/60 hiddden md:block">Overcome your fear and ace Interviews</p>
        <Link href='/dashboard'>
        <div className="inline-flex gap-1 items-center">
         <p>
