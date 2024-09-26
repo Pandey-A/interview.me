@@ -38,4 +38,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 A web app which lets users get a hands on experience of the Tech interviews . It is a full stack application which helps in giving interviews with help of AI integration in it which lets user to experience a large domain. After the interview the user gets full detailed analysis of the interview question his answered questions and what is the rating of that question . On the dashboard the user can re-attempt the interviews that he has given earlier .
 All the best with your interviews the app is still in development mode till then test it and find if any bugs .
 # Dashboard
+
 <img width="1435" alt="Screenshot 2024-09-25 at 1 48 32 AM" src="https://github.com/user-attachments/assets/4c44e104-9618-4fd1-8804-800413a476b9">
+
+<img width="1429" alt="Screenshot 2024-09-26 at 9 24 23 PM" src="https://github.com/user-attachments/assets/fac10b6d-bbe2-44cd-99c9-77f556eb3d22">
+
+
+<img width="1428" alt="Screenshot 2024-09-26 at 9 26 13 PM" src="https://github.com/user-attachments/assets/66df0536-4b1a-495b-af69-c8c2b666672d">
